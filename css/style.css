@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.man-w {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+#banner {
+    height: 600px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.banner-body {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-l {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-l h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.banner-l p {
+    padding: 20px 0;
+}
+
+.banner-l button {
+    padding: 10px 25px;
+}
+
+.banner-r {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.banner-r img {
+    width: 450px;
+    padding-top: 20px;
+}
+
+.featured-body {
+    padding: 100px 0;
+}
+
+.featured-t {
+    text-align: center;
+}
+
+.featured-t h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+
+.featured-b {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.featured-card {
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    text-align: center;
+    padding: 50px 45px 0;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.shopping-body {
+    background: url(../img/Rectangle\ 9.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.shopping-body div h1 {
+    font-size: 40px;
+}
+
+.shopping-body div p {
+    padding: 20px 0;
+}
+
+.input input {
+    width: 500px;
+    padding: 15px 25px;
+    border: none;
+}
+
+.input button {
+    padding: 15px 25px;
+    background: #E55473;
+    color: aliceblue;
+    border: none;
+    margin-left: 15px;
+}
